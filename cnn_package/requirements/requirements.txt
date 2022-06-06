@@ -1,0 +1,18 @@
+# production requirements
+pandas>=1.4.0, <1.5.0
+numpy>=1.18.0, <1.23.0
+scikit-learn>=1.0.0, <1.2.0
+tensorflow==2.9.1
+opencv-python>=4.5.0, <4.6.0
+h5py>=2.10.0
+Theano>=1.0.0, <1.1.0
+pydantic>=1.0.0, <1.10.0
+strictyaml>=1.0.0, <1.7.0
+joblib==1.1.0
+
+# packaging
+# setuptools==40.6.3
+# wheel==0.32.3
+
+# fetching datasets
+#kaggle==1.5.1.1

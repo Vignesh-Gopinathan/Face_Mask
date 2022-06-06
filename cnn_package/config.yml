@@ -1,0 +1,22 @@
+# Package Overview
+package_name: cnn_model
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Save Files
+pipeline_name: cnn_pipe
+pipeline_save_file: cnn_pipe_output_v
+model_name: cnn_model
+classes_name: classes
+encoder_name: encoder
+
+# Random Seed
+random_state: 0
+
+# Model Variables
+image_size: 224
+batch_size: 10
+epochs: 10
+learning_rate: 0.001
